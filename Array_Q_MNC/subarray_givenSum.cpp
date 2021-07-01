@@ -64,7 +64,6 @@ void find_num_subArray_optimized(int a[],int size,int num)
 int main()
 {
     int size,num=0;
-
     cin>>size>>num;
 
     int arr[size];
