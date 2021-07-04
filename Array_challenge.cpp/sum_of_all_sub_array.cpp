@@ -37,6 +37,21 @@ void printSubArraySum(int a[],int size)
     
 }
 
+void printSubArray(int a[],int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = i; j < size; j++)
+        {
+            for (int k = i; k<=j; k++)
+            {
+                cout<<a[k]<<" ";
+            }
+            cout<<endl;
+        }
+    }
+}
+
 int main()
 {
     int size=0;
@@ -44,5 +59,6 @@ int main()
     int a[size];
 
     inputArray(a,size);
-    printSubArraySum(a,size);
+    // printSubArraySum(a,size);
+    printSubArray(a,size);
 }
