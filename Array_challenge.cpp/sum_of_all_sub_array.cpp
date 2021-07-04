@@ -59,6 +59,6 @@ int main()
     int a[size];
 
     inputArray(a,size);
-    // printSubArraySum(a,size);
-    printSubArray(a,size);
+    printSubArraySum(a,size);
+    // printSubArray(a,size);
 }
