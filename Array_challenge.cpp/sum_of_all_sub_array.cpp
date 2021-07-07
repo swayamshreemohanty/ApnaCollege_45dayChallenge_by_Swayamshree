@@ -32,6 +32,7 @@ void printSubArraySum(int a[],int size)
             subArraySum+=a[j];
             cout<<subArraySum<<" ";
         }
+        cout<<endl;
         
     }
     
